@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "494456647162",
+    "project_id": "tarix-f7cb2",
+    "storage_bucket": "tarix-f7cb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494456647162:android:6770535136e83e8a1ec843",
+        "android_client_info": {
+          "package_name": "com.example.tarix.QuizActivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494456647162-2phq5u1n1i7q410ou61bi0vbr5ge2rl6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tarix.QuizActivity",
+            "certificate_hash": "7a113d25f0e77301baf527b4d0d6f4901d394591"
+          }
+        },
+        {
+          "client_id": "494456647162-8ah5lgooaiqgofusju7jfbglu4jr2ec4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnq3070Rh8w6BDW1VTRoTV2370DxueDNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494456647162-8ah5lgooaiqgofusju7jfbglu4jr2ec4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

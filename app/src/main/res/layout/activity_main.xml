@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_backgound"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HistoryActivity.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            >
+
+
+            <LinearLayout
+                android:id="@+id/five_layout"
+                android:layout_width="@dimen/size_180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_8dp"
+                android:layout_marginTop="@dimen/size_30dp"
+                android:layout_marginRight="@dimen/size_20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+
+
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/five_cardview"
+                    android:layout_width="@dimen/size_150dp"
+                    android:layout_height="@dimen/size_200dp"
+                    app:cardCornerRadius="@dimen/size_18dp"
+                    app:cardElevation="@dimen/size_16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/besh" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/seven_cardview"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="5-sinf"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/six_layout"
+                android:layout_width="@dimen/size_180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_30dp"
+                android:layout_toRightOf="@+id/five_layout"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/six_cardview"
+                    android:layout_width="@dimen/size_150dp"
+                    android:layout_height="@dimen/size_200dp"
+                    android:layout_marginLeft="@dimen/size_10dp"
+                    app:cardCornerRadius="@dimen/size_18dp"
+                    app:cardElevation="@dimen/size_16dp">
+
+                    <ImageView
+                        android:id="@+id/btnimage2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/olti_auto" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/six_cardview"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="6-sinf"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_22sp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/seven_layout"
+                android:layout_width="@dimen/size_180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/five_layout"
+                android:layout_marginLeft="@dimen/size_8dp"
+                android:layout_marginTop="@dimen/size_30dp"
+                android:layout_marginRight="@dimen/size_20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/seven_cardview"
+                    android:layout_width="@dimen/size_150dp"
+                    android:layout_height="@dimen/size_200dp"
+                    app:cardCornerRadius="@dimen/size_18dp"
+                    app:cardElevation="@dimen/size_16dp">
+
+                    <ImageView
+                        android:id="@+id/btnimage3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/yetti_ozbek_auto" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/seven_cardview"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="7-sinf"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/eight_layout"
+                android:layout_width="@dimen/size_180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/six_layout"
+                android:layout_marginTop="@dimen/size_30dp"
+                android:layout_toRightOf="@+id/seven_layout"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/eight_cardview"
+                    android:layout_width="@dimen/size_150dp"
+                    android:layout_height="@dimen/size_200dp"
+                    android:layout_marginLeft="@dimen/size_10dp"
+                    app:cardCornerRadius="@dimen/size_18dp"
+                    app:cardElevation="@dimen/size_16dp">
+
+                    <ImageView
+                        android:id="@+id/btnimage4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sakkiz_ozbek_auto_x1" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eight_cardview"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="8-sinf"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_22sp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nein_layout"
+                android:layout_width="@dimen/size_180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seven_layout"
+                android:layout_marginLeft="@dimen/size_8dp"
+                android:layout_marginTop="@dimen/size_30dp"
+                android:layout_marginRight="@dimen/size_20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nein_cardview"
+                    android:layout_width="@dimen/size_150dp"
+                    android:layout_height="@dimen/size_200dp"
+                    app:cardCornerRadius="@dimen/size_18dp"
+                    app:cardElevation="@dimen/size_16dp">
+
+                    <ImageView
+                        android:id="@+id/btnimage5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/toqqiz_jahon" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eight_cardview"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="9-sinf"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_22sp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ten_layout"
+                android:layout_width="@dimen/size_180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eight_layout"
+                android:layout_marginTop="@dimen/size_30dp"
+                android:layout_marginRight="@dimen/size_20dp"
+                android:layout_toRightOf="@+id/nein_layout"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ten_cardview"
+                    android:layout_width="@dimen/size_150dp"
+                    android:layout_height="@dimen/size_200dp"
+                    android:layout_marginLeft="@dimen/size_10dp"
+
+                    app:cardCornerRadius="@dimen/size_18dp"
+                    app:cardElevation="@dimen/size_16dp">
+
+                    <ImageView
+                        android:id="@+id/btnimage6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sakkiz_ozbek_auto_x1" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eight_cardview"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="10-sinf"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_22sp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/eleven_layout"
+                android:layout_width="@dimen/size_180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nein_layout"
+                android:layout_marginLeft="@dimen/size_8dp"
+                android:layout_marginTop="@dimen/size_30dp"
+                android:layout_marginRight="@dimen/size_20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/size_150dp"
+                    android:layout_height="@dimen/size_200dp"
+
+                    app:cardCornerRadius="@dimen/size_18dp"
+                    app:cardElevation="@dimen/size_16dp">
+
+                    <ImageView
+                        android:id="@+id/btnimage7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sakkiz_ozbek_auto_x1" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eight_cardview"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="11-sinf"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_22sp"
+
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_clik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/size_120dp"
+        android:backgroundTint="@color/home_backgound"
+        app:icon="@drawable/align"
+        app:iconTint="@color/black"
+        app:iconSize="@dimen/size_24dp"
+        android:text="Tanlash"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="@dimen/text_22sp"
+        app:cornerRadius="@dimen/size_12dp"
+
+
+         />
+   <LinearLayout
+       android:id="@+id/layout_bottom_sheet"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_alignParentBottom="true"
+       android:background="@color/white">
+
+
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/size_80dp"
+           android:layout_alignParentBottom="true">
+
+           <com.google.android.material.button.MaterialButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="@dimen/size_35dp"
+               android:layout_marginTop="@dimen/size_30dp"
+               android:backgroundTint="@color/home_backgound"
+               android:elevation="@dimen/size_6dp"
+               android:padding="@dimen/size_12dp"
+               android:text="Audio"
+               android:textColor="@color/black"
+
+               />
+
+           <com.google.android.material.button.MaterialButton
+               android:id="@+id/test_id"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_marginTop="@dimen/size_30dp"
+               android:layout_marginRight="@dimen/size_35dp"
+               android:backgroundTint="@color/home_backgound"
+               android:elevation="@dimen/size_12dp"
+               android:padding="@dimen/size_6dp"
+               android:text="Test"
+               android:textColor="@color/black" />
+
+
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:gravity="center">
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size_8dp"
+        android:backgroundTint="@color/home_backgound"
+        android:elevation="@dimen/size_6dp"
+        app:icon="@android:drawable/ic_delete" />
+</RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

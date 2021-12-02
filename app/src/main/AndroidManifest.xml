@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tarix">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tarix"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".QuizActivity.ScoreActivity"></activity>
+        <activity android:name=".QuizActivity.StratTestActivity" />
+        <activity android:name=".QuizActivity.QuestionsActivity" />
+        <activity android:name=".QuizActivity.TestActivity" />
+        <activity android:name=".QuizActivity.LoginUpActivity" />
+        <activity android:name=".QuizActivity.LoginActivity" />
+        <activity
+            android:name=".QuizActivity.ExzamActivity"
+            android:label="@string/title_activity_exzam"
+            android:theme="@style/Theme.Tarix.NoActionBar" />
+        <activity
+            android:name=".QuizActivity.SplashActivity"
+            android:theme="@style/Theme.Tarix.NoActionBar" />
+        <activity
+            android:name=".HistoryActivity.IntroActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.SplashActivity"
+            android:theme="@style/Theme.Tarix">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HistoryActivity.ElevinUzbActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.ElevinJahonActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.TenUzbActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.TenJahonActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.NeinUzbActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.NeinJahonActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.EightUzbActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.EightReadingActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.SixReadingActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.SevenJohonActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.SevenUzbActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.ReadingActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.ElevinActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.TenActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.NeinActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.EightActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.SevenActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.SixActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity
+            android:name=".HistoryActivity.FifthActivity"
+            android:theme="@style/Theme.Tarix" />
+        <activity android:name=".HistoryActivity.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

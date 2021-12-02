@@ -1,0 +1,25 @@
+package com.example.tarix.HistoryActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import com.example.tarix.R;
+import com.github.barteksc.pdfviewer.PDFView;
+
+public class EightUzbActivity extends AppCompatActivity {
+PDFView PdfUzb;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_eight_uzb);
+
+        PdfUzb=findViewById(R.id.eightUzbPdf);
+
+        PdfUzb.useBestQuality(true);
+        PdfUzb.enableSwipe(true);
+        PdfUzb.fitToWidth();
+        PdfUzb.fromAsset("ozbekiston_tarixi_8_uzb.pdf").load();
+
+    }
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_margin="@dimen/size_8dp"
+      android:elevation="@dimen/size_6dp"
+      android:gravity="center"
+      android:padding="@dimen/size_16dp"
+      android:background="@color/home_backgound"
+      >
+     <TextView
+         android:id="@+id/noTest"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Title"
+         android:textSize="@dimen/text_20sp"
+         android:textAlignment="center"
+         android:textColor="@color/black"
+         android:layout_marginTop="@dimen/size_16dp"
+         />
+     <ProgressBar
+
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+         android:layout_marginTop="@dimen/size_16dp"
+         android:layout_marginLeft="@dimen/size_80dp"
+         android:layout_marginRight="@dimen/size_80dp"
+         android:progressTint="@color/purple_500"
+         android:id="@+id/testProg"
+         />
+     <TextView
+         android:id="@+id/testFoiz"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="80%"
+         android:textSize="@dimen/text_20sp"
+         android:textAlignment="center"
+         android:textColor="@color/purple_600"
+         android:layout_marginTop="@dimen/size_16dp"
+
+         />
+
+  </LinearLayout>
+
+
+</LinearLayout>
